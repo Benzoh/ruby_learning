@@ -1,12 +1,12 @@
 def fizzbuzz(count)
     if (count % 3 == 0) && (count % 5 == 0)
-        return "FizzBuzz"
+        "FizzBuzz"
     elsif (count % 3) == 0
-        return "Fizz"
+        "Fizz"
     elsif count % 5 == 0
-        return "Buzz"
+        "Buzz"
     else
-        return count.to_s
+        count.to_s
     end
 end
 
