@@ -1,6 +1,6 @@
-def fizzbuzz(count)
+def fizz_buzz(count)
   if count % 15 == 0
-    "FizzBuzz"
+    "Fizz Buzz"
   elsif count % 3 == 0
     "Fizz"
   elsif count % 5 == 0
@@ -10,6 +10,8 @@ def fizzbuzz(count)
   end
 end
 
-(1...100).each do |i |
-  p fizzbuzz(i)
-end
+# (1...100).each do |i |
+#   p fizzbuzz(i)
+# end
+
+
